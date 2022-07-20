@@ -1,0 +1,28 @@
+[
+    {
+        "caption": "打开URL链接", 
+        "command": "open_context_url"
+    }, 
+    {
+        "caption": "-"
+    }, 
+    {
+        "caption": "剪切", 
+        "command": "cut"
+    }, 
+    {
+        "caption": "复制", 
+        "command": "copy"
+    }, 
+    {
+        "caption": "粘贴", 
+        "command": "paste"
+    }, 
+    {
+        "caption": "-"
+    }, 
+    {
+        "caption": "全选", 
+        "command": "select_all"
+    }
+]

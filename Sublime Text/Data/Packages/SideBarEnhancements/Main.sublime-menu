@@ -1,0 +1,92 @@
+[
+	{
+		"caption": "File",
+		"mnemonic": "F",
+		"id": "file",
+		"children": [
+			{
+				"command": "side_bar_save_as_admin",
+				"caption": "管理员身份保存"
+			}
+		]
+	},
+	{
+		"id": "preferences",
+		"children": [
+			{
+				"id": "package-settings",
+				"children": [
+					{
+						"caption": "Side Bar",
+						"children": [
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/SideBarEnhancements/Side Bar.sublime-settings"
+								},
+								"caption": "默认设置"
+							},
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/User/Side Bar.sublime-settings"
+								},
+								"caption": "用户设置"
+							},
+							{ "caption": "-" },
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/SideBarEnhancements/Default (OSX).sublime-keymap",
+									"platform": "OSX"
+								},
+								"caption": "按键设置"
+							},
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/SideBarEnhancements/Default (Linux).sublime-keymap",
+									"platform": "Linux"
+								},
+								"caption": "默认按键"
+							},
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/SideBarEnhancements/Default (Windows).sublime-keymap",
+									"platform": "Windows"
+								},
+								"caption": "默认按键"
+							},
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/User/Default (OSX).sublime-keymap",
+									"platform": "OSX"
+								},
+								"caption": "用户按键"
+							},
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/User/Default (Linux).sublime-keymap",
+									"platform": "Linux"
+								},
+								"caption": "用户按键"
+							},
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/User/Default (Windows).sublime-keymap",
+									"platform": "Windows"
+								},
+								"caption": "用户按键"
+							},
+							{ "caption": "-" }
+						]
+					}
+				]
+			}
+		]
+	}
+]

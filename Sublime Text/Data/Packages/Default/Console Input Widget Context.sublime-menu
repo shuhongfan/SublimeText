@@ -1,0 +1,38 @@
+[
+    {
+        "caption": "剪切", 
+        "command": "cut"
+    }, 
+    {
+        "caption": "复制", 
+        "command": "copy"
+    }, 
+    {
+        "caption": "粘贴", 
+        "command": "paste"
+    }, 
+    {
+        "caption": "-"
+    }, 
+    {
+        "caption": "全选", 
+        "command": "select_all"
+    }, 
+    {
+        "caption": "-"
+    }, 
+    {
+        "checkbox": true, 
+        "args": {
+            "version": "3.8"
+        }, 
+        "command": "console_python_version"
+    }, 
+    {
+        "checkbox": true, 
+        "args": {
+            "version": "3.3"
+        }, 
+        "command": "console_python_version"
+    }
+]
